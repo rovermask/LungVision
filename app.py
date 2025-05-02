@@ -29,11 +29,13 @@ categories = ["Normal", "Tuberculosis"]
 
 # Preprocess function
 def preprocess_image(img_path):
-    img = Image.load_img(img_path, target_size=(224, 224))
-    img_array = Image.img_to_array(img)
-    img_array = np.expand_dims(img_array, axis=0)
-    img_array /= 255.0
+    img = Image.open(img_path).convert("RGB")           
+    img = img.resize((224, 224))                       
+    img_array = np.array(img, dtype=np.float32)         
+    img_array = img_array / 255.0                       
+    img_array = np.expand_dims(img_array, axis=0)       
     return img_array
+
 
 def load_tb_model():
     return load_model('saved_models/TB_Detection_Model_CNN.keras')
