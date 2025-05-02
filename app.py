@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, url_for
-from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 import numpy as np
+from PIL import Image
 import os
 
 app = Flask(__name__)
@@ -12,7 +12,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load model
-model = load_model('saved_models/TB_Detection_Model_CNN.keras')
+# model = load_model('saved_models/TB_Detection_Model_CNN.keras')
 
 # Insight images (also inside static)
 insight_images = [
@@ -29,11 +29,14 @@ categories = ["Normal", "Tuberculosis"]
 
 # Preprocess function
 def preprocess_image(img_path):
-    img = image.load_img(img_path, target_size=(224, 224))
-    img_array = image.img_to_array(img)
+    img = Image.load_img(img_path, target_size=(224, 224))
+    img_array = Image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
     img_array /= 255.0
     return img_array
+
+def load_tb_model():
+    return load_model('saved_models/TB_Detection_Model_CNN.keras')
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -50,6 +53,7 @@ def index():
             file.save(save_path)
 
             img = preprocess_image(save_path)
+            model =load_tb_model()
             pred = model.predict(img)[0][0]
 
             if pred >= 0.5:
