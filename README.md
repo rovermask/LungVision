@@ -82,3 +82,11 @@ Then open your browser and go to: http://localhost:5000
 <img src="https://github.com/user-attachments/assets/2ce0a125-1046-469a-946f-55d847221325" width="600" height="400">
 
 ---
+
+## 🙋‍♂️ Author
+Vibhum Sharma
+🧠 Developer | 💻 AI Enthusiast | 🫁 LungVision Creator
+
+GitHub: https://github.com/yourusername
+
+LinkedIn: (optional – add your link if you want)
