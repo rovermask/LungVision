@@ -31,4 +31,12 @@
 ---
 
 ## 📁 Project Structure
-
+LungVision/
+│
+├── static/ # Static assets (CSS, images)
+├── templates/ # HTML templates
+├── model/ # Trained CNN model files
+├── visualizations/ # Plots: accuracy, loss, confusion matrix
+├── app.py # Flask app entry point
+├── requirements.txt # Python dependencies
+└── README.md # You’re reading it 😉
