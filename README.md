@@ -1,5 +1,4 @@
-# 💨 LungVision  
-*A CNN-Based Tuberculosis Detection Tool*
+# 💨 LungVision - *A CNN-Based Tuberculosis Detection Tool*
 
 [![Deployed](https://img.shields.io/badge/Live-Demo-green)](https://tb-detection-flask.onrender.com)  
 🔗 **Live App:** [https://tb-detection-flask.onrender.com](https://tb-detection-flask.onrender.com)
