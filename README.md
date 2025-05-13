@@ -75,5 +75,6 @@ Then open your browser and go to: http://localhost:5000
 - Accuracy/loss plots
 
 - Confusion matrix
-![confusion_matrix](https://github.com/user-attachments/assets/2ce0a125-1046-469a-946f-55d847221325)
+  
+  ![confusion_matrix](https://github.com/user-attachments/assets/2ce0a125-1046-469a-946f-55d847221325)
 ---
