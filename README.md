@@ -74,7 +74,7 @@ Then open your browser and go to: http://localhost:5000
 
 - Accuracy Plot
   
-![accuracy_curve](https://github.com/user-attachments/assets/dd6d8aca-8adc-4108-b001-46c54448c846 | width=300x300)
+![accuracy_curve](https://github.com/user-attachments/assets/dd6d8aca-8adc-4108-b001-46c54448c846 =300x300)
 
 - Loss Plot
   
