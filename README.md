@@ -72,12 +72,16 @@ Then open your browser and go to: http://localhost:5000
 
 - Upload & prediction flow
 
-- Accuracy/loss plots
+- Accuracy Plot
   
-![accuracy_curve](https://github.com/user-attachments/assets/dd6d8aca-8adc-4108-b001-46c54448c846) ![loss_curve](https://github.com/user-attachments/assets/659fedc1-808d-42a2-8a5e-c928f42c3448)
+![accuracy_curve](https://github.com/user-attachments/assets/dd6d8aca-8adc-4108-b001-46c54448c846)
+
+- Loss Plot
+  
+![loss_curve](https://github.com/user-attachments/assets/659fedc1-808d-42a2-8a5e-c928f42c3448)
 
 
 - Confusion matrix
   
-  ![confusion_matrix](https://github.com/user-attachments/assets/2ce0a125-1046-469a-946f-55d847221325)
+![confusion_matrix](https://github.com/user-attachments/assets/2ce0a125-1046-469a-946f-55d847221325)
 ---
