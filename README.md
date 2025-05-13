@@ -83,10 +83,5 @@ Then open your browser and go to: http://localhost:5000
 
 ---
 
-## 🙋‍♂️ Author
-Vibhum Sharma
-🧠 Developer | 💻 AI Enthusiast | 🫁 LungVision Creator
-
-GitHub: https://github.com/yourusername
-
-LinkedIn: (optional – add your link if you want)
+📌 **Author:** Vibhum Sharma  
+📧 Contact: vibhum10sharma@gmail.com
