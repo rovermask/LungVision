@@ -73,7 +73,7 @@ Then open your browser and go to: http://localhost:5000
 - Upload & prediction flow
 
 - Accuracy Plot
-<img src="[https://your-image-url.type](https://github.com/user-attachments/assets/dd6d8aca-8adc-4108-b001-46c54448c846)" width="100" height="100">
+<img src="https://github.com/user-attachments/assets/dd6d8aca-8adc-4108-b001-46c54448c846" width="300" height="300">
 
 - Loss Plot
   
