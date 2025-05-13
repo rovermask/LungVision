@@ -84,4 +84,4 @@ Then open your browser and go to: http://localhost:5000
 ---
 ## 🙋‍♂️ Author
 📌 **Name:** Vibhum Sharma  
-📧 Contact: vibhum10sharma@gmail.com
+📧 **Contact:** vibhum10sharma@gmail.com
