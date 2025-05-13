@@ -34,17 +34,34 @@
 
 > Skip this section if you're using the live app, but here's how to run LungVision locally:
 
-### 1. Clone the Repository
-  ```sh
+1. Clone the Repository
+    ```sh
     git clone https://github.com/yourusername/LungVision.git
     cd LungVision
     ```
-### 2. Install required dependencies:
+2. Create a Virtual Environment
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install Dependencies
    ```sh
    pip install -r requirements.txt
    ```
-3. Open the Jupyter Notebook:
-   ```sh
-   jupyter notebook RetailStoreSalesAnalysis.ipynb
-   ```
-4. Run all cells to execute the analysis.
+4. Run the App
+  ```sh
+  python app.py
+  ```
+Then open your browser and go to: http://localhost:5000    
+
+---
+
+## 🧪 Model Details
+
+- Architecture: Custom CNN 
+- Dataset: [Insert dataset name or source]
+- Accuracy: 97.713%
+- Loss Function: Binary Crossentropy
+- Optimizer: Adam
+
+---
