@@ -30,13 +30,21 @@
 
 ---
 
-## 📁 Project Structure
-LungVision/
-│
-├── static/ # Static assets (CSS, images)
-├── templates/ # HTML templates
-├── model/ # Trained CNN model files
-├── visualizations/ # Plots: accuracy, loss, confusion matrix
-├── app.py # Flask app entry point
-├── requirements.txt # Python dependencies
-└── README.md # You’re reading it 😉
+## 🛠️ How to Run Locally (Optional)
+
+> Skip this section if you're using the live app, but here's how to run LungVision locally:
+
+### 1. Clone the Repository
+  ```sh
+    git clone https://github.com/yourusername/LungVision.git
+    cd LungVision
+    ```
+### 2. Install required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Open the Jupyter Notebook:
+   ```sh
+   jupyter notebook RetailStoreSalesAnalysis.ipynb
+   ```
+4. Run all cells to execute the analysis.
